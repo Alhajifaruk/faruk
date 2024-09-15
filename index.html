@@ -1,43 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-     <link rel="stylesheet" href="style.css">
-     <title>Faruktech</title>
-</head>     
-<body background="/images/umar.jpg">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Affordable and professional web design">
+	  <meta name="keywords" content="web design, affordable web design, professional web design">
+  	<meta name="author" content="Brad Traversy">
+    <title>Cyber King| Home</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="img/favicon.png">
+  </head>
+  <body>
     <header>
-       
-        <div class="header-main">
-            <div class="header-main-logo">
-                <img src="/icon/icon7.png" alt=""/>
-           <nav class="header-main-nav">   
-                   <h1>Welcome to my website</h1>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Cyber</span> Web</h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <main>
-        <section id="reportform">
-            <h2>Fill out this form</h2>
-            <form id="abuseform">
-                <label for="victims name">User's name:</label>
-                <input type="text" id="VictimName" name="VictimName" required>
-                              
-                <label for="perpetrator name">User's Email or Phone number:</label>
-                <input type="text" id="perpetrator name" name="perpetrator name" required >
-                <label for="User's password">User's Password</label>
-               <select id="password" name="password" required >
-                 <option value"physical"></option>
-                   <option value="Reset password with my previous email">Reset password with my previous email</option>
-                   <option value="sexual">Forgotten password</option>
-              <form>
- <form action="/action_page.php">
-     <input type="text" name="continue with facebook" id="continue with facebook" value="continue with facebook"/>
-          
-          
-<button type="submit">Log in </button>
-    </form>
-         </br >
-         </br >   
-                   <!-- Add more options as needed-->
- 
-                   </footer>
+
+    <section id="showcase">
+      <div class="container">
+        <h1>Hi
+        Welcome</h1>
+       <p><b>To my Website</b></p>
+      </div>
+    </section>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To My Website</h1>
+        <form>
+          <input type="email" placeholder="Enter Email..." required>
+          <button type="submit" class="button_1">Subscribe</button></br></br>
+        </form>
+      </div>
+    </section>
+
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <img src="./img/logo_html.png">
+          <h3>HTML5 Markup</h3>
+          <p>This is where you can learn HTML5 </p>
+        </div>
+        <div class="box">
+          <img src="./img/logo_css.png">
+          <h3>CSS3 Styling</h3>
+          <p>This is where to learn how to style your web</p>
+        </div>
+        <div class="box">
+          <img src="./img/logo_brush.png">
+          <h3>Graphic Design</h3>
+          <p>Cyber Web also offers 🫴 how to learn a graphic design </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Cyber Web, Copyright &copy; 2024</p>
+    </footer>
+  </body>
+</html>
